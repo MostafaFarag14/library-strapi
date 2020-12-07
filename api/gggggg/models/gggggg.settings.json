@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "ggggggs",
+  "info": {
+    "name": "gggggg"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

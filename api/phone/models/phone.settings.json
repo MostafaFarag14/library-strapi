@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "phones",
+  "info": {
+    "name": "phone",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "imageURL": {
+      "type": "string"
+    },
+    "internalStorage": {
+      "type": "string",
+      "required": true
+    },
+    "ram": {
+      "type": "string",
+      "required": true
+    },
+    "brand": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "displaySize": {
+      "type": "string"
+    },
+    "rearCamera": {
+      "type": "string"
+    },
+    "frontCamera": {
+      "type": "string"
+    },
+    "batteryCapacity": {
+      "type": "string"
+    }
+  }
+}

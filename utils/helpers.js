@@ -5,3 +5,7 @@ const getRandomNumber = (min=1, max=10) => {
 module.exports = {
   getRandomNumber
 }
+
+const testFn = () => {
+  return true
+}
